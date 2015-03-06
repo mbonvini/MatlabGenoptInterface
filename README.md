@@ -8,6 +8,9 @@ has been extended to work with Matlab.
 The instructions for running the examples are listed in the ``Documentation`` folder.
 Inside this folder there are both instructions for Windows and Linux users.
 
+The code and scripts that are part of this project are released under 
+the MIT license.
+
 =====================================================
 Note
 =====================================================
