@@ -18,8 +18,8 @@ This project was developed while working as a visiting researcher
 at the Austrian Institute of Technology during the summer 2011.
 
 =====================================================
-Info
+Author
 =====================================================
-:Author: Marco Bonvini <bonvini.m@gmail.com>
+Marco Bonvini <bonvini.m@gmail.com>
 
 
