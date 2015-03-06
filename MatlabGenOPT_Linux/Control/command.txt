@@ -1,0 +1,37 @@
+/* GenOpt command file
+    Marco Bonvini - 15 June 2011
+*/
+
+Vary{
+  Parameter{ Name = u00; Min = 0; Ini = 5; Max = 50; Step = 0.5; }
+  Parameter{ Name = u01; Min = 0; Ini = 5; Max = 100; Step = 0.5; }
+}
+
+OptimizationSettings{
+  MaxIte = 10000;
+  MaxEqualResults = 100;
+  WriteStepNumber = false;
+}
+
+Algorithm{
+  Main = DiscreteArmijoGradient;
+  Alpha = 0.5;
+  Beta  = 0.8;
+  Gamma = 0.1;
+  K0    = 10;
+  KStar = 0;
+  LMax  = 50;
+  Kappa = 50;
+  EpsilonM = 0.05;
+  EpsilonX = 0.05;
+}
+
+/*
+Algorithm{
+ Main = GPSHookeJeeves;
+ MeshSizeDivider = 2;
+ InitialMeshSizeExponent = 0;
+ MeshSizeExponentIncrement = 1;
+ NumberOfStepReduction = 4;
+}
+*/
